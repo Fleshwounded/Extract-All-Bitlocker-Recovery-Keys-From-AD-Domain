@@ -9,7 +9,7 @@ Typically the data is not easily searchable from a query since the actualy recov
 msFVE-RecoveryInformation, itself an attribute of the computer object and the string being searched for is visible in Active Directory
 via the Bitlocker Tools but NOT via ADSIEdit.<br>
 <br>
-##USE<br>
+## USE<br>
 Enter the distinguisedName of the root OU (or to cast a wider net, the root of the domain) as the constant $strOU and execute the script.
 Output will be saved in a CSV file named results.csv in the same directory by default, though this can be changed by modifying the $strLog
 constant.
